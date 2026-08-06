@@ -23,3 +23,7 @@ ax.set_ylabel('Price (in $1,000)')
  
 st.subheader('Living space vs. price')
 st.pyplot(fig=fig, clear_figure=True)
+
+# The DataFrame must contain columns named 'lat' and 'lon'
+st.map(df_short)
+
