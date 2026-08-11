@@ -58,7 +58,7 @@ if st.checkbox("Show earthquake data (date, magnitude, location)"):
 st.subheader("Distribution of earthquake magnitudes")
 
 sns.set_theme(style="whitegrid")
-fig, ax = plt.subplots(figsize=(8, 4))
+fig, ax = plt.subplots(figsize=(4, 3))
 sns.histplot(data=df, x="mag", bins=30, kde=True, color="#c0392b", ax=ax)
 ax.set_xlabel("Magnitude")
 ax.set_ylabel("Number of earthquakes")
