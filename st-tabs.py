@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/tips.csv'
 df = pd.read_csv(url)
